@@ -8,4 +8,4 @@ npm i crypto
 
 node address
 
-Change lines 13-14 to your wishes and run the script. Note that each additional character increases search time by 16 times
+Change lines 13-14 to your wishes and run the script. Use only 0..9, a, b, c, d, e, f symbols. Note that each additional character increases search time by 16 times
