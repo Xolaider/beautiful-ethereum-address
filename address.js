@@ -11,22 +11,15 @@ const main = () => {
  
     const address = wallet.address
     const addressFirstSymbols = address.slice(0, 6)
-//    if (address.includes('0000')) {
-    if (addressFirstSymbols.toLowerCase() === '0xeb10') {
+    if (addressFirstSymbols.toLowerCase() === '0x0000') {
         console.log('address', wallet.address, 'private key', id)
         return true
     }
     return false;
 }
-//main()
+
 do {
     done = main()
 }
 while (!done);
 
-// var id = crypto.randomBytes(32).toString('hex');
-// var privateKey = "0x"+id;
-// console.log("SAVE BUT DO NOT SHARE THIS:", privateKey);
-
-// var wallet = new ethers.Wallet(privateKey);
-// console.log("Address: " + wallet.address);
