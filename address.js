@@ -1,5 +1,5 @@
-var ethers = require('ethers');  
-var crypto = require('crypto');
+const ethers = require('ethers');  
+const crypto = require('crypto');
 let done = false;
 let counter = 1;
 let now = new Date()
