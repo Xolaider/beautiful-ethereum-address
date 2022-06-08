@@ -10,6 +10,6 @@ node address
 
 Use only 0..9, a, b, c, d, e, f symbols. 
 
-Write your characters on line 21 and run the script. 
+Write your characters on line 23 and run the script. 
 
 Note that each additional character increases search time by 16 times.
