@@ -23,4 +23,3 @@ do {
     done = main('00000')
 }
 while (!done);
-console.log
